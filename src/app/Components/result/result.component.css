@@ -1,0 +1,42 @@
+.info
+{
+    margin-top: 100px;
+    color: #D9D9D9;
+    font-family: system-ui;
+    margin-right: 30%;
+    font-size: x-large;
+    text-align-last: right;
+    display: grid;
+}
+.end
+{
+    margin: 30px;
+    background-color: #6C63FF;
+    width: 120px;
+    font-family: system-ui;
+    font-weight: lighter;
+}
+
+.page
+{
+    background-color: black;
+    height: -webkit-fill-available;
+}
+.address
+{
+    font-weight: bolder;
+}
+
+.label
+{
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.coordinates
+{
+    color: #6C63FF;
+    font-weight: 900;
+    font-size: xx-large;
+
+}

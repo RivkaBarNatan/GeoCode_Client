@@ -1,0 +1,43 @@
+.form
+{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form-control
+{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    white-space:pre-wrap;
+}
+
+.form-row>.col, .form-row>[class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+.label
+{
+    font: menu;
+    margin-right: -180px;
+}
+
+.b
+{
+    background-color: rgb(225 42 72);
+    width: 220px;
+}

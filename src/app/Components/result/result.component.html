@@ -1,0 +1,24 @@
+<div class="page">
+<button mat-raised-button class="end" (click)="end()">סיום</button>
+
+<div class="info">
+    <span class="header">הקואורדינטות של הכתובת  |  <span class="address">{{address}}</span></span>
+    <br><br>
+    <label class="label">קו רוחב</label><br>
+    <span class="coordinates">{{coor[0].latitude}}</span> <br>
+    <label class="label">קו אורך</label><br>
+    <span class="coordinates">{{coor[0].longitude}}</span> <br>
+</div>
+<div>
+    <!-- <span>החיפוש הפופלארי ביותר | {{popular}}</span>
+    <span>{{popularCount}} בקשות</span> -->
+</div>
+
+<!-- <div class="mostPopular">
+    <span class="header">רשימת 5 החיפושים הפופולריים</span>
+    <mat-card class="card" *ngFor="let element of mostPopular">
+        <mat-card-title>{{element.street}}</mat-card-header>
+        <mat-card-subTitle></mat-card-subHeader>
+    </mat-card>
+</div> -->
+</div>

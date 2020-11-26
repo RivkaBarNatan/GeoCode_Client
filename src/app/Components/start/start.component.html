@@ -1,0 +1,9 @@
+<form [formGroup]="geoCode" class="form" (ngSubmit)="show()">
+    <div class="form-group col-md-6">
+        <label for="inputAddress" class="label">כתובת</label><br>
+        <input mdbInput type="text" class="form-control" id="inputAddress" formControlName="address">
+      </div>
+    <!-- <input mdbInput type="text" class="form-control" id="inputAddress" formControlName="address">
+    <label for="inputAddress">כתובת</label><br> -->
+    <button mat-raised-button class="b" >הצג את הקואורדינטות</button>
+</form>
