@@ -1,6 +1,7 @@
 import { Route } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { GeoCode } from 'src/app/Models/geo-code-result';
 import { CoordinationService } from 'src/app/Services/coordination.service';
 import { DataSyncService } from 'src/app/Services/data-sync.service';
 
@@ -27,7 +28,6 @@ export class ResultComponent implements OnInit {
     });
     this.address = this.dataSync.address;
   }
-
 
   end() {
     this.route.navigate(['']);
