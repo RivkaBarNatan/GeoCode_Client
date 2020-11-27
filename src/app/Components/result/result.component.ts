@@ -16,6 +16,7 @@ export class ResultComponent implements OnInit {
   latitude;
   longitude;
   address: string;
+  popular;
   constructor(private route: Router, private dataSync: DataSyncService, private coorSer: CoordinationService) { }
 
   ngOnInit() {
@@ -24,6 +25,11 @@ export class ResultComponent implements OnInit {
       this.dataSync.data = data;
       console.log(data);
       this.coorSer.addToDB(this.coor[0]);
+
+      this.coorSer.getMostPopular().subscribe(x => {
+        this.popular = x;
+        console.log(this.popular);
+      });
 
     });
     this.address = this.dataSync.address;

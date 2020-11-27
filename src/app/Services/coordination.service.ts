@@ -19,4 +19,9 @@ export class CoordinationService {
   {
     this.http.post("http://localhost:8080/PostGeoCode", data).subscribe(c=>console.log(c));
   }
+
+  getMostPopular()
+  {
+    return this.http.get("http://localhost:8080/GetMostPopular");
+  }
 }
