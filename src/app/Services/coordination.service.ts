@@ -24,4 +24,9 @@ export class CoordinationService {
   {
     return this.http.get("http://localhost:8080/GetMostPopular");
   }
+
+  getListPopular()
+  {
+    return this.http.get("http://localhost:8080/GetListPopular");
+  }
 }
